@@ -22,7 +22,7 @@ function App() {
 				}
 
 				const result = await response.json()
-				setCards(result.results)
+				setCards(shuffle(result.results))
 			} catch (error) {
 				console.error(error.message)
 			}
