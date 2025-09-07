@@ -47,7 +47,7 @@ function App() {
 
 	return (
 		<>
-			<Container maxWidth="1200px">
+			<Container>
 				<Header />
 				<ScoreBox currentScore={currentScore} bestScore={bestScore} />
 				<BasicGrid
